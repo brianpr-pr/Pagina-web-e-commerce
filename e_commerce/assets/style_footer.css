@@ -1,0 +1,130 @@
+/*footer*/
+#container-footer{
+margin-top: auto;
+background-color: black;
+color:white;
+height: 300px;
+}
+/*div que agrupa sub divs lado izquierdo*/
+#container-footer-content-izquierda{
+    display: flex;
+    flex-flow: column wrap;
+    height: 100%;
+    width: 100%;
+}
+
+/*sub div que forma parte del wraper del logo de la pagina web*/
+#principal-image-footer-logo{
+    /*background-color: red;*/ /*Eliminar al acabar el layout de elementos*/
+    height: 100px;
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+/*logo de la pagina web*/
+#logo-footer{
+    width: 50px;
+    height: 50px;
+    margin-left:8%;
+    background-color: white;
+    border: 2px solid black;
+    border-radius:28px;
+    padding: 3px;
+    
+}
+
+
+/*logos de otras compañias links externos*/
+#sub-images-footer-logos{
+    /*background-color: white;*/ /*Eliminar al acabar el layout de elementos*/
+    height: 200px;
+    width: 50%;
+}
+
+#sub-images-footer-logos > img {
+    margin-top: 2%;
+}
+
+
+#facebook-footer-logo{
+    margin-left: 5%;
+    width: 50px;
+    height: 55px;
+}
+
+
+#ig-footer-logo{
+    width: 50px;
+    height: 55px;
+}
+
+#sub-container-derecha{
+    height: 300px;
+    width: 50%;
+    /*Eliminar color*/
+    /*background-color: blue;*/
+    display: flex;
+    flex-flow: column wrap;
+}
+
+/*input para ingreso de datos sin función real*/
+#container-ingreso-email{
+    margin: 5px;
+    display: flex;
+    flex-flow: row wrap;
+    height: 100px;
+}
+
+
+#label-ingreso-email{
+    margin: 5px 5px 5px 12%;
+}
+
+#ingreso-email{
+    height: 20px;
+    margin: 25px 5px 5px 5%;
+    background-color: transparent;
+    border: 2px solid white;        /* opcional: quita el borde */
+    color: white;  
+}
+
+
+
+/*Links para subpaginas*/
+#links-footer{
+    display:flex;
+    /*Que direccion ???*/
+    flex-flow:row wrap;
+    height: 190px;
+
+}
+
+.links-footer-general{
+    width: 50%;
+    display: flex;
+    flex-flow:column wrap;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 32px;
+    list-style: none;
+
+}
+
+.links-footer-general > ul{
+    list-style: none;
+}
+
+.links-footer-general > ul > li{
+    margin-top: 12px;
+    margin-bottom: 5px;
+    font-size:18px;
+    color:white;
+}
+
+.links-footer-general > ul > li > a{
+    color:white;
+    text-decoration: none;
+
+}
+

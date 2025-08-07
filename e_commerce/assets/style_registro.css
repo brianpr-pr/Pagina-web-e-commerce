@@ -1,0 +1,29 @@
+#container-all{
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#container-registro{
+    display: flex;
+    flex-direction: column;
+    border: 2px solid black;
+    border-radius: 12px;
+    background-color: rgb(55, 220, 217);
+    width: 40%;
+    margin: auto auto;
+}
+
+#container-form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    * {
+        margin-top: 12px;
+    }
+    #submit{
+        margin-bottom: 16px;
+    }
+}

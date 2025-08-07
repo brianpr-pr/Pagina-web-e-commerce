@@ -1,0 +1,113 @@
+#container-no-registrado{
+    display: flex;
+    flex-direction:column;
+    width: 100%;
+    height: 600px;
+}
+
+#elementos-no-registrado{
+    display: flex;
+    width: 45%;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    border: 2px solid black;
+    border-radius: 25px;
+    *{
+        margin-left:12px;
+    }
+}
+
+#container-registrado{
+    display:flex;
+    flex-direction: column;
+    height: 800px;
+}
+
+#container-registrado-elementos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    *{
+        margin-top: 16px;
+    }
+}
+
+#container-img-nombre{
+    position: relative;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#logo-usuario{
+    position: absolute;
+    width: 75px;
+    height: 75px;
+    border-radius: 45px;
+    left: 90%;
+    bottom: 0.3%;
+}
+
+.datos_usuario{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    border:2px solid black;
+    width: 22%;
+}
+
+.editar-logo{
+    width: 30px;
+    height: 30px;
+    border:2px solid black;
+    border-radius: 25px;
+}
+
+.editar-logo:hover{
+    transform: scale(1.5,1.5);
+    border-color:gold;
+}
+
+
+
+#elemento-modificar{
+    position: absolute;
+    top: 300px;
+    width: 50%;
+    bottom: 0;
+    left: 25%;
+    right: 25%;
+    height: 300px;
+    border: 2px solid black;
+    background-color: rgb(55, 220, 217);
+    box-shadow: 0 0 18px rgba(0, 0, 0, 0.5);
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    button{
+        margin-top:12px;
+    }
+    #titulo-salida{
+        display: flex;
+        flex-direction: row;
+        #close-botton{
+            position: absolute;
+            top: 0;
+            left: 90%;
+            bottom: 100%;
+            width: 50px;
+            height: 50px;
+        }
+        #close-botton:hover{
+            transform: translate(1.5px,-1.5px);
+        }
+        /*Añadir estilo hover y funcionalidad para salir del pop up
+        Despues añadir que cuando que si el usuario ingresa algo , que actualice lo que sea que halla pinchado
+        y de resto si voy sobrado hacer que el usuario pueda modificar foto de perfil, de resto trabajar en carro y detalles de productos
+        intentar acabar mañana para poder volver a mates, buen trabajo ayer brian hoy a por más, maquina.*/
+    }
+}

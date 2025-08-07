@@ -1,0 +1,111 @@
+/*1º MAIN CONTAINER*/
+#bienvenida-menu{
+    height: 400px;
+    display: flex;
+    flex-flow:row nowrap;
+}
+
+.sub-elementos-bienvenida{
+    height: 390px;
+    width: 50%;
+    border:2px solid black;
+}
+
+#bienvenida-imagen{
+        /*Añadir estilos*/
+
+}
+
+#furgoneta-ikaros{
+    width:50px;
+    height: 50px;
+}
+
+#bienvenida-mensaje{
+        background-color: black;
+        color: white;
+}
+
+#bienvenida-mensaje > * {
+    margin-left: 10%;
+}
+
+
+/*2º MAIN CONTAINER*/
+/*Container principal que alberga contenido*/
+#container-nuevos{
+    display:flex;
+    flex-direction: column;
+    height: 600px;
+    width: 100%;
+}
+
+/*Contenedor de titulo y subtitulo*/
+#nuevos-titulo{
+    text-align:center;
+    height: 120px;
+}
+
+/*Contendor del contenido dinamico sobre nuevos productos*/
+#nuevos-productos{
+    display: flex;
+    direction: row;
+    align-items: center;
+    justify-items: center;
+    justify-content: space-around;
+    height: 480px;
+
+}
+/*Container wrapper que alberga imagenes y texto del nuevo producto*/
+.class-wrapper-nuevo-producto{
+    height: 60%;
+    width: 28%;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+    align-content: center;
+    align-items: center;
+    border: 2px solid black;
+    background-color: white;
+}
+
+/*Container de imagenes*/
+.class-imagenes-nuevo-producto{
+    width: 100%;
+    height: 30%;
+    position: relative;
+
+}
+
+.imagen-nuevo{
+    border-radius: 25px;
+    min-width:40%; 
+    height:50%;
+    z-index: 3;
+    position: absolute;
+    top: -20px;
+    left: -30px;
+}
+
+.imagen-producto{
+    width:100%; 
+    height:100%;
+    z-index: 2;
+}
+
+/*Container del texto*/
+.class-texto-nuevo-producto{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.parrafo-descripcion-producto{
+}
+
+.boton-comprar{
+    width: 50%;
+    margin: auto;
+}

@@ -1,0 +1,120 @@
+#carro-main-container{
+    min-height: 500px;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+#titulo-carrito{
+    margin-left: 5%;
+}
+
+#productos-en-carro{
+    display: flex;
+    flex-direction:column;
+}
+
+.item-en-carro{
+    border:2px solid black;
+    display: flex;
+    flex-direction: row;
+}
+
+.info-item{
+    border: 1px solid black;
+    display:flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    width: 60%;
+}
+
+.info-item-imagen{
+    align-self: center;
+    margin: 5%;
+    width: clamp(125px,35%,400px);
+    height: clamp(50px,55%,400px);
+    box-shadow: 0px 0px 10px black;
+}
+
+.info-item-texto{
+    display: flex;
+    flex-direction: column;
+    margin-left: 5%;
+    font-size: clamp(15px,2vw,40px);
+}
+
+.acciones-item{
+    display:flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 40%;
+    border: 1px solid black;
+}
+
+.acciones-item-cantidad{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    border: 1px solid black;
+}
+
+.acciones-item-cantidad-texto{
+    margin-left: 6%;
+    width: 20%;
+}
+
+.acciones-item-cantidad-botones{
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    justify-items: space-around;
+}
+
+.sumar-restar{
+    margin-right: 2%;
+    width: 20px;
+}
+
+
+.acciones-item-eliminar{
+    width: 100%;
+    height: 100%;
+    display:flex;
+    flex-direction:row;
+    justify-content: flex-end;
+    align-items: center;
+    border: 1px solid black;
+}
+
+.acciones-item-eliminar-boton{
+    height: 30px;
+    margin-right: 3%;
+}
+
+#botones-acciones{
+    margin-top: 22px;
+    display: flex;
+    align-self: flex-start;
+    justify-self:flex-end;
+    position: relative;
+    margin: 15% 5% 2%;
+}
+
+.botones-acciones-pagar{
+    margin: 1% 3%;
+}
+
+.botones-acciones-seguir{
+    width: 150px;
+    text-align: center;
+    margin-left: 3%;
+}
+
+#no-registrado{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

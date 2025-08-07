@@ -1,0 +1,89 @@
+#detalles-producto{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+#detalles-producto-imagen{
+    width: 50%;
+}
+
+#producto-imagen-propiedades{
+    margin: 5%;
+    width: 90%;
+    height: 400px;
+}
+
+#detalles-producto-contenido{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+
+
+#opiniones{
+    display: flex;
+    flex-direction: row;
+}
+
+
+#opiniones > *{
+    margin-left: 12px;
+}
+
+#texto-descriptivo-detalles-producto{
+    width: 100%; 
+}
+
+#texto-descriptivo-detalles-producto{
+    margin-left: 5%;
+}
+
+.hrs{
+    height: 0px;
+    width: 90%;
+    border-radius:12px;
+    border:2px solid black;
+    margin: 0px 4%;
+}
+
+#cantidad-botones{
+    display: flex;
+    flex-direction: column;
+}
+
+#cantida-botones-subcontainer{
+    margin-left:1%;
+    display: flex;
+    flex-direction: column;
+}
+
+#botones-controlador{
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    align-items: center;
+}
+
+#numero{
+    margin: 0px 2% 0% 2%;
+}
+
+.boton-controlador-class{
+    height: 22px;
+}
+
+
+#precio-producto-detalles{
+    margin-left: 50%;
+}
+
+
+#boton-añadir-carrito{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    height: 80px;
+}
