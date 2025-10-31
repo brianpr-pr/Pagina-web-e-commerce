@@ -1,0 +1,1 @@
+Voy a volver a este proyecto para refactorizar las conexiones a la base de datos (mysqli -> PDO) y para modificar css y empezar a usar bootrstrap.
